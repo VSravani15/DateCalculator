@@ -8,3 +8,7 @@ x86/
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
