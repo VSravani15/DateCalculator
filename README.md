@@ -144,6 +144,7 @@ Clone the repository:
 
 ```bash
 git clone <repository-url>
+git clone git@github.com:VSravani15/DateCalculator.git
 ```
 
 Navigate to the project folder:
