@@ -150,7 +150,7 @@ git clone git@github.com:VSravani15/DateCalculator.git
 Navigate to the project folder:
 
 ```bash
-cd DateCalculator
+cd DateCalculator/DateCalculator
 ```
 
 Run:
@@ -194,6 +194,12 @@ New Date:
 ---
 
 ## Running Unit Tests
+
+Navigate to the project folder:
+
+```bash
+cd DateCalculator/DateCalculator.Tests
+```
 
 Run all tests:
 
