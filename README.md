@@ -53,33 +53,41 @@ The solution handles:
 ```
 DateCalculator
 │
-├── Helpers
-│   ├── LeapYearHelper.cs
-│   └── DaysInMonthHelper.cs
+├── README.md
+├── .gitignore
 │
-├── Interfaces
-│   ├── IDateCalculatorService.cs
-│   └── IDateValidator.cs
+├── DateCalculator
+│   ├── Program.cs
+│   ├── DateCalculator.csproj
+|   ├── DateCalculator.sln
+│   │
+│   ├── Models
+│   │   └── SimpleDate.cs
+│   │
+│   ├── Interfaces
+│   │   ├── IDateCalculatorService.cs
+│   │   └── IDateValidator.cs
+│   │
+│   ├── Services
+│   │   ├── DateCalculatorService.cs
+│   │
+│   └── Parsers
+│   │   ├── DateParser.cs
+│   │
+│   └── Validators
+│   │   ├── DateValidator.cs
+│   │
+│   └── Helpers
+│       └── LeapYearHelper.cs
+│       └── DaysInMonthHelper.cs
 │
-├── Models
-│   └── SimpleDate.cs
-│
-├── Parsers
-│   └── DateParser.cs
-│
-├── Services
-│   └── DateCalculatorService.cs
-│
-├── Validators
-│   └── DateValidator.cs
-│
-├── Program.cs
-│
-└── DateCalculator.Tests
-    ├── LeapYearTests.cs
-    ├── DateValidatorTests.cs
-    ├── DateCalculatorServiceTests.cs
-    └── DateParserTests.cs
+├── DateCalculator.Tests
+│   ├── DateCalculator.Tests.csproj
+│   ├── LeapYearTests.cs
+│   └── DateValidatorTests.cs
+│   ├── DateCalculatorServiceTests.cs
+│   └── DateParserTests.cs
+
 ```
 
 ---
